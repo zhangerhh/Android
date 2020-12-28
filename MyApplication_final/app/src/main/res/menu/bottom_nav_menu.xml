@@ -11,10 +11,10 @@
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_dashboard" />
 
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_notifications" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_notifications"-->
+<!--        android:icon="@drawable/ic_notifications_black_24dp"-->
+<!--        android:title="@string/title_notifications" />-->
 
     <item
         android:id="@+id/navigation_watch"
@@ -26,5 +26,9 @@
         android:icon="@drawable/ic_baseline_casino_24"
         android:title="@string/title_card" />
 
+    <item
+        android:id="@+id/navigation_city"
+        android:icon="@drawable/ic_baseline_casino_24"
+        android:title="@string/title_city" />
 
 </menu>

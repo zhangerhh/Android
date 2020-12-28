@@ -1,5 +1,6 @@
 package com.example.myapplication_final.ui.card
 
+import android.content.ServiceConnection
 import android.content.res.Configuration
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -18,7 +19,7 @@ class CardFragment : Fragment() {
         fun newInstance() = CardFragment()
     }
 
-    lateinit var adapter: CardAdapter
+    //lateinit var adapter: CardAdapter
     private lateinit var viewModel: CardViewModel
 
     override fun onCreateView(
@@ -34,7 +35,7 @@ class CardFragment : Fragment() {
 
         viewModel.game.observe(viewLifecycleOwner, Observer {
             val game = it
-            adapter = CardAdapter(it)
+            var adapter: CardAdapter = CardAdapter(it)
             recycleView.adapter = adapter
 
             val configure = resources.configuration
