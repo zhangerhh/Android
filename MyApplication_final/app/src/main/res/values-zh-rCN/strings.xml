@@ -20,9 +20,9 @@
     <string name="prev">prev</string>
     <string name="next">next</string>
     <string name="pause">pause</string>
-    <string name="textView2">America</string>
-    <string name="button">Click me</string>
-    <string name="textView">Hello world!</string>
-    <string name="clicked">I am clicked!</string>
+    <string name="textView2">中国</string>
+    <string name="button">点击我</string>
+    <string name="textView">你好 世界!</string>
+    <string name="clicked">我被点击了!</string>
 
 </resources>

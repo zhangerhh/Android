@@ -12,16 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.myapplication_final.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
-<!--    <fragment-->
-<!--        android:id="@+id/navigation_notifications"-->
-<!--        android:name="com.example.myapplication_final.ui.notifications.NotificationsFragment"-->
-<!--        android:label="@string/title_notifications"-->
-<!--        tools:layout="@layout/fragment_notifications" />-->
+        android:id="@+id/navigation_hello"
+        android:name="com.example.myapplication_final.ui.hello.HelloFragment"
+        android:label="@string/title_hello"
+        tools:layout="@layout/hello_fragment" />
 
     <fragment
         android:id="@+id/navigation_watch"
@@ -40,4 +34,6 @@
         android:name="com.example.myapplication_final.ui.city.CityFragment"
         android:label="@string/title_city"
         tools:layout="@layout/city_fragment" />
+
+
 </navigation>
